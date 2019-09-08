@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KFSegmentedController" customModule="KFSegmentedView" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundView" destination="SGE-V5-Ht8" id="sXz-Jx-Pll"/>
+                <outlet property="segmentStackView" destination="865-Gb-pDa" id="O5R-JQ-knz"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SGE-V5-Ht8">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="865-Gb-pDa" customClass="KFSegmentedStackView" customModule="KFSegmentedView" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="865-Gb-pDa" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="8AE-3p-uLz"/>
+                <constraint firstItem="SGE-V5-Ht8" firstAttribute="centerY" secondItem="865-Gb-pDa" secondAttribute="centerY" id="EDS-Bn-kYQ"/>
+                <constraint firstItem="SGE-V5-Ht8" firstAttribute="bottom" secondItem="865-Gb-pDa" secondAttribute="bottom" id="GrV-wU-ZY7"/>
+                <constraint firstItem="SGE-V5-Ht8" firstAttribute="leading" secondItem="865-Gb-pDa" secondAttribute="leading" id="HIf-Vl-ch1"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="865-Gb-pDa" secondAttribute="trailing" id="Mwj-Jd-Eoq"/>
+                <constraint firstItem="865-Gb-pDa" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Zfh-0u-bbu"/>
+                <constraint firstItem="SGE-V5-Ht8" firstAttribute="top" secondItem="865-Gb-pDa" secondAttribute="top" id="bi1-VO-sue"/>
+                <constraint firstAttribute="bottom" secondItem="865-Gb-pDa" secondAttribute="bottom" id="d5i-A0-Wou"/>
+                <constraint firstItem="865-Gb-pDa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="fNM-fO-3Ty"/>
+                <constraint firstAttribute="trailing" secondItem="865-Gb-pDa" secondAttribute="trailing" id="i2n-oH-c78"/>
+                <constraint firstItem="SGE-V5-Ht8" firstAttribute="trailing" secondItem="865-Gb-pDa" secondAttribute="trailing" id="vrW-h5-pog"/>
+                <constraint firstItem="SGE-V5-Ht8" firstAttribute="centerX" secondItem="865-Gb-pDa" secondAttribute="centerX" id="xe7-nw-kmJ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>
