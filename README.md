@@ -83,4 +83,6 @@ segment.backgroundColor = .lightGray
 segment.segmentSelectedIndex = 3 //defualt selected segment is 0
 ````
 
+## License
 
+KFSegmentedView is released under an MIT license. See [License.md]() for more information.
