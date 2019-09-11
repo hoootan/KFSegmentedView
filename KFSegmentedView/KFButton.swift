@@ -17,7 +17,7 @@ protocol KFSegmentedButtonLogic {
     func setColorForUnselectedButton()
 }
 
-public class KFButton: UIButton, KFSegmentedButtonLogic {
+internal class KFButton: UIButton, KFSegmentedButtonLogic {
     
     public var delegate: KFSegmentedButtonDelegate!
     private var buttonSetting: KFSetting!

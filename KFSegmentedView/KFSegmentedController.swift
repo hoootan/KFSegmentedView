@@ -17,7 +17,7 @@ protocol KFSegmentedControllerDelegate: class {
     func segmentedSelectedItem(at index:Int, obj:KFSegmentObject)
 }
 
-public class KFSegmentedController: UIViewController {
+internal class KFSegmentedController: UIViewController {
     
     weak var delegate: KFSegmentedControllerDelegate?
     
