@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "KFSegmentedView"
-  s.version      = "1.0.0"
+  s.version      = "1.0.2"
   s.summary      = "Customized Segmented View"
   s.swift_version = "4.2"
   
@@ -55,7 +55,7 @@ Pod::Spec.new do |s|
   s.author             = { "Hootan Moradi" => "hoootaan@gmail.com" }
   # Or just: s.author    = "Hootan Moradi"
   # s.authors            = { "Hootan Moradi" => "hoootaan@gmail.com" }
-  s.social_media_url   = "http://twitter.com/Hootan Moradi"
+  s.social_media_url   = "http://twitter.com/hoootaan"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/hoootan/KFSegmentedView.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/hoootan/KFSegmentedView.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,8 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "KFSegmentedView", "KFSegmentedView/**/*"
-  s.exclude_files = "KFSegmentedView/**/*.plist"
+  s.source_files  = "KFSegmentedView", "KFSegmentedView/**/*.{h,m,swift}"
 
   # s.public_header_files = "Classes/**/*.h"
 

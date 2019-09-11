@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct KFSegmentObject {
+public struct KFSegmentObject {
     var model:AnyObject?
     var index:Int
     var title:String

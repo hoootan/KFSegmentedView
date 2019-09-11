@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct KFSetting {
+public struct KFSetting {
     var labelFont: UIFont?
     var selectedTextColor: UIColor
     var unselectedTextColor: UIColor
