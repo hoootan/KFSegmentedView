@@ -13,7 +13,7 @@ enum SegmentSemantic {
     case ltr
 }
 
-protocol KFSegmentedControllerDelegate: class {
+public protocol KFSegmentedControllerDelegate: class {
     func segmentedSelectedItem(at index:Int, obj:KFSegmentObject)
 }
 
@@ -102,7 +102,7 @@ extension KFSegmentedController: KFSegmentedButtonDelegate {
     }
 }
 
-extension UIViewController {
+public extension UIViewController {
     func add(child:UIViewController,subview:UIView) {
         addChild(child)
         child.view.frame = subview.bounds
