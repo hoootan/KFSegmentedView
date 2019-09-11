@@ -54,7 +54,7 @@ public class KFSegmentedController: UIViewController {
         set { self.backgroundView.layer.cornerRadius = newValue }
     }
     
-    init(delegate:KFSegmentedControllerDelegate, items:[KFSegmentObject]) {
+    public init(delegate:KFSegmentedControllerDelegate, items:[KFSegmentObject]) {
         print("KFSegmentedController init")
         super.init(nibName: "KFSegmentedController", bundle: nil)
         self.delegate = delegate
