@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:KFSegmentedView.xcodeproj">
+      location = "group:../../../../Downloads/KFSegmentedView-example/segment-test.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

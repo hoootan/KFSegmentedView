@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:KFSegmentedView-example"
+      name = "KFSegmentedView-example">
+      <Group
+         location = "group:segment-test"
+         name = "segment-test">
+         <FileRef
+            location = "group:ViewController.swift">
+         </FileRef>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:LaunchScreen.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Main.storyboard">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:KFSegmentedView"
+            name = "KFSegmentedView">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <Group
+               location = "group:KFSegmentedView"
+               name = "KFSegmentedView">
+               <Group
+                  location = "group:xib"
+                  name = "xib">
+               </Group>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:AppDelegate.swift">
+         </FileRef>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Pods"
+         name = "Pods">
+         <FileRef
+            location = "group:Pods.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:Target Support Files"
+            name = "Target Support Files">
+            <Group
+               location = "group:Pods-segment-test"
+               name = "Pods-segment-test">
+               <FileRef
+                  location = "group:Pods-segment-test-frameworks-Debug-output-files.xcfilelist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-segment-test-frameworks-Debug-input-files.xcfilelist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-segment-test-frameworks-Release-output-files.xcfilelist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-segment-test-acknowledgements.markdown">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-segment-test-acknowledgements.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-segment-test.release.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-segment-test-frameworks-Release-input-files.xcfilelist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-segment-test-frameworks.sh">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-segment-test-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-segment-test-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-segment-test.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-segment-test-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-segment-test.debug.xcconfig">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:KFSegmentedView"
+               name = "KFSegmentedView">
+               <FileRef
+                  location = "group:KFSegmentedView.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:KFSegmentedView-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:KFSegmentedView-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:KFSegmentedView-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:KFSegmentedView.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:KFSegmentedView-Info.plist">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:Manifest.lock">
+         </FileRef>
+         <Group
+            location = "group:Local Podspecs"
+            name = "Local Podspecs">
+         </Group>
+         <Group
+            location = "group:KFSegmentedView"
+            name = "KFSegmentedView">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <Group
+               location = "group:KFSegmentedView"
+               name = "KFSegmentedView">
+               <Group
+                  location = "group:xib"
+                  name = "xib">
+                  <FileRef
+                     location = "group:KFSegmentedController.xib">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:KFSegmentObject.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:KFSegmentedStackView.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:KFSegmentedController.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:KFSegmentedView.h">
+               </FileRef>
+               <FileRef
+                  location = "group:KFSetting.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:KFButton.swift">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Headers"
+            name = "Headers">
+            <Group
+               location = "group:Public"
+               name = "Public">
+            </Group>
+            <Group
+               location = "group:Private"
+               name = "Private">
+            </Group>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:segment-test.xcworkspace">
+      </FileRef>
+      <FileRef
+         location = "group:Podfile">
+      </FileRef>
+      <FileRef
+         location = "group:segment-test.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Podfile.lock">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "container:">
+   </FileRef>
+</Workspace>
