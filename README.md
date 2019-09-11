@@ -22,23 +22,7 @@
 import KFSegmentedView
 ````
 
-2. create an instance of `KFSegmentedViewController` in your workspace
-
-````swift
-let segmentedController = KFSegmentedController(delegate: self, items: objs)
-````
-
-3. you need to add and conform to `KFSegmentedControllerDelegate` in main controller 
-
-```swift
-extension ViewController : KFSegmentedControllerDelegate {
-    func segmentedSelectedItem(at index: Int, obj: KFSegmentObject) {
-        
-    }
-}
-````
-
-4. you need to create array of `KFSegmentedObject`
+2. you need to create array of `KFSegmentedObject`
 
 ````swift
 let objs = [
@@ -49,6 +33,27 @@ let objs = [
         ]
 ````
 
+3. create an instance of `KFSegmentedViewController` in your workspace
+
+````swift
+let segmentedController = KFSegmentedController(delegate: self, items: objs)
+````
+
+4. then you can add controller view as a child to main controller
+
+````swift
+add(child: segment, subview: backView) //this is an extension for UIViewController
+````
+
+5. you need to add and conform to `KFSegmentedControllerDelegate` in main controller 
+
+```swift
+extension ViewController : KFSegmentedControllerDelegate {
+    func segmentedSelectedItem(at index: Int, obj: KFSegmentObject) {
+        
+    }
+}
+````
 ## Customization
 
 #### KFSetting
@@ -68,4 +73,14 @@ let setting = KFSetting(font: UIFont.systemFont(ofSize: 14), //optional
 ````                               
 
 * note that you have to pass this setting to `KFSegmentObject`
+
+#### KFSegmentedViewController
+
+````swift
+segment.semantic = .rtl //to changing segment view direction just set .rtl or .ltr
+segment.cornerRadius = 15
+segment.backgroundColor = .lightGray
+segment.segmentSelectedIndex = 3 //defualt selected segment is 0
+````
+
 
