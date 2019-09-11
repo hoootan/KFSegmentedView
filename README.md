@@ -2,7 +2,7 @@
 
 ## Requirements
 
-* iOS 10.1+
+* iOS 10.0+
 
 ## Installation
 
@@ -16,3 +16,14 @@
 
 ## Getting Started
 
+1. import `KFSegmentedView` in your workspace
+
+````swift
+import KFSegmentedView
+````
+
+2. create an instance of `KFSegmentedViewController` in your workspace
+
+````swift
+let segmentedController = KFSegmentedController(delegate: self, items: objs)
+````
