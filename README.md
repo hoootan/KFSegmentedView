@@ -85,4 +85,4 @@ segment.segmentSelectedIndex = 3 //defualt selected segment is 0
 
 ## License
 
-KFSegmentedView is released under an MIT license. See [License.md]() for more information.
+KFSegmentedView is released under an MIT license. See [License.md]('https://github.com/hoootan/KFSegmentedView/blob/master/LICENSE') for more information.
