@@ -67,4 +67,5 @@ let setting = KFSetting(font: UIFont.systemFont(ofSize: 14), //optional
                         cornerRadius: 15) //optional
 ````                               
 
+* note that you have to pass this setting to `KFSegmentObject`
 
