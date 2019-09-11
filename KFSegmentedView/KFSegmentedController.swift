@@ -8,7 +8,7 @@
 
 import UIKit
 
-enum SegmentSemantic {
+public enum SegmentSemantic {
     case rtl
     case ltr
 }
@@ -38,7 +38,7 @@ public class KFSegmentedController: UIViewController {
         }
     }
     
-    var semantic: SegmentSemantic = .ltr {
+    public var semantic: SegmentSemantic = .ltr {
         didSet {
             switch semantic {
             case .ltr:
