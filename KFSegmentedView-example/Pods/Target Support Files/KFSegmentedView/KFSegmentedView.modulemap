@@ -1,0 +1,6 @@
+framework module KFSegmentedView {
+  umbrella header "KFSegmentedView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_segment_test {
+  umbrella header "Pods-segment-test-umbrella.h"
+
+  export *
+  module * { export * }
+}

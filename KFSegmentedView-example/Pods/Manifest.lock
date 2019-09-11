@@ -1,0 +1,16 @@
+PODS:
+  - KFSegmentedView (1.2.0)
+
+DEPENDENCIES:
+  - KFSegmentedView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - KFSegmentedView
+
+SPEC CHECKSUMS:
+  KFSegmentedView: 05b49738242efd1c36c3f6aac73a00caacafa5aa
+
+PODFILE CHECKSUM: e2c1e2a557fef6ea76544d12c80a5a60c6e00c52
+
+COCOAPODS: 1.7.5

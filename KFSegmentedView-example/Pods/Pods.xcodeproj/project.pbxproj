@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A7EAF9F656A6E169CDF74B23E45267 /* KFSegmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C792FE29E635001582FC8B2169396 /* KFSegmentObject.swift */; };
+		0BAAA2BB6F7FC3E260E91A2766BDD53A /* Pods-segment-test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E88914F8E6E4D7E95D491CAA944ADBFB /* Pods-segment-test-dummy.m */; };
+		20746655D457F57DA9866B98C0933305 /* KFSegmentedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A527E2568A1A003BB773C4E7D78923A /* KFSegmentedController.swift */; };
+		3EA7F1945BFADD9360DDBB87C4F1B06C /* KFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A66E9E5BED5BD8C10CDBE585A84A1D /* KFButton.swift */; };
+		4E43A9FB47245F54C7969311B0883DDD /* KFSegmentedView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E37F997603AF670CDC707AC86BE6EA /* KFSegmentedView-dummy.m */; };
+		531D80E5E0C7981868DD7651921914FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		542B1F2FD07136BBECA8773B4331FBC2 /* KFSegmentedView.h in Headers */ = {isa = PBXBuildFile; fileRef = EE797DBEC7BFAEE7E6E220CE62B5D186 /* KFSegmentedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		856A922A349D7C8CA2CFDB7D1C504844 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A10FB282F817A324F79AC498A449CC4B /* KFSegmentedStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37C2B0E20BABCBDE7169F96433B9BC5 /* KFSegmentedStackView.swift */; };
+		AE6716A44A736EB580EFED85DCA6471D /* KFSegmentedView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1A49B86607E8912460AE1426A1CEC12 /* KFSegmentedView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5DBDC041E37A7F88D2BA219C9E3E323 /* KFSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6EE3A8FAFA4EE999A064A0E2963C17 /* KFSetting.swift */; };
+		E18C3D90CF7A7D5B2BD57A24E04E3EF7 /* Pods-segment-test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F10CD152C03A88FFF3E8D2D94D1461F /* Pods-segment-test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9B41AE5299FFBC75A52565B149E2031 /* KFSegmentedController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 75BC1FA545F59A11F538046CC20A8F72 /* KFSegmentedController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72912CA5B85A07E84D6F538059093A91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F96D6A788AEE57DB40BB2CF46D1FC898;
+			remoteInfo = KFSegmentedView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C4E08748F577F80005E965D9005716 /* KFSegmentedView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KFSegmentedView-Info.plist"; sourceTree = "<group>"; };
+		31426CC1723370142928FB4AA5E9684E /* Pods_segment_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_segment_test.framework; path = "Pods-segment-test.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A6EE3A8FAFA4EE999A064A0E2963C17 /* KFSetting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFSetting.swift; path = KFSegmentedView/KFSetting.swift; sourceTree = "<group>"; };
+		4A14F0881D4D98A8480F4C771CCEC701 /* Pods-segment-test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-segment-test-acknowledgements.plist"; sourceTree = "<group>"; };
+		522D31C333E09BA8D1DC2EE5FE33840C /* Pods-segment-test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-segment-test-acknowledgements.markdown"; sourceTree = "<group>"; };
+		66AB856212A490EB08F6DEF46FAC784D /* Pods-segment-test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-segment-test-frameworks.sh"; sourceTree = "<group>"; };
+		69761415B12924EB34A3293A6CF3DC7C /* KFSegmentedView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KFSegmentedView.xcconfig; sourceTree = "<group>"; };
+		6C9C792FE29E635001582FC8B2169396 /* KFSegmentObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFSegmentObject.swift; path = KFSegmentedView/KFSegmentObject.swift; sourceTree = "<group>"; };
+		75BC1FA545F59A11F538046CC20A8F72 /* KFSegmentedController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = KFSegmentedController.xib; path = KFSegmentedView/xib/KFSegmentedController.xib; sourceTree = "<group>"; };
+		83139BB3D26EE080884665B75FE75C8E /* Pods-segment-test-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-segment-test-Info.plist"; sourceTree = "<group>"; };
+		9769956FD0771284F98E8914EAC2EE36 /* Pods-segment-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-segment-test.debug.xcconfig"; sourceTree = "<group>"; };
+		9A527E2568A1A003BB773C4E7D78923A /* KFSegmentedController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFSegmentedController.swift; path = KFSegmentedView/KFSegmentedController.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F10CD152C03A88FFF3E8D2D94D1461F /* Pods-segment-test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-segment-test-umbrella.h"; sourceTree = "<group>"; };
+		AF5BDD5BB9BC186D95DA017EB4D072B3 /* KFSegmentedView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KFSegmentedView.framework; path = KFSegmentedView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15CE54B21E8B3888F9F4D7C458CA82D /* KFSegmentedView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KFSegmentedView-prefix.pch"; sourceTree = "<group>"; };
+		C1A49B86607E8912460AE1426A1CEC12 /* KFSegmentedView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KFSegmentedView-umbrella.h"; sourceTree = "<group>"; };
+		C8A66E9E5BED5BD8C10CDBE585A84A1D /* KFButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFButton.swift; path = KFSegmentedView/KFButton.swift; sourceTree = "<group>"; };
+		C8E37F997603AF670CDC707AC86BE6EA /* KFSegmentedView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KFSegmentedView-dummy.m"; sourceTree = "<group>"; };
+		CBF1544BBFC17BA48F63BC7223414870 /* Pods-segment-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-segment-test.release.xcconfig"; sourceTree = "<group>"; };
+		D285032CE5A6D32E87BE387A0FE1E881 /* KFSegmentedView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KFSegmentedView.modulemap; sourceTree = "<group>"; };
+		D5ACEBA6414BC0B4FC50EF48830525F9 /* Pods-segment-test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-segment-test.modulemap"; sourceTree = "<group>"; };
+		E37C2B0E20BABCBDE7169F96433B9BC5 /* KFSegmentedStackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFSegmentedStackView.swift; path = KFSegmentedView/KFSegmentedStackView.swift; sourceTree = "<group>"; };
+		E88914F8E6E4D7E95D491CAA944ADBFB /* Pods-segment-test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-segment-test-dummy.m"; sourceTree = "<group>"; };
+		EE797DBEC7BFAEE7E6E220CE62B5D186 /* KFSegmentedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KFSegmentedView.h; path = KFSegmentedView/KFSegmentedView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EBB2F289143024979FEE89C2A4F8D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				531D80E5E0C7981868DD7651921914FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92243C60869A28F780D3868FDE440329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856A922A349D7C8CA2CFDB7D1C504844 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A91EC9F363979FD91FE19075F939007 /* KFSegmentedView */ = {
+			isa = PBXGroup;
+			children = (
+				C8A66E9E5BED5BD8C10CDBE585A84A1D /* KFButton.swift */,
+				9A527E2568A1A003BB773C4E7D78923A /* KFSegmentedController.swift */,
+				75BC1FA545F59A11F538046CC20A8F72 /* KFSegmentedController.xib */,
+				E37C2B0E20BABCBDE7169F96433B9BC5 /* KFSegmentedStackView.swift */,
+				EE797DBEC7BFAEE7E6E220CE62B5D186 /* KFSegmentedView.h */,
+				6C9C792FE29E635001582FC8B2169396 /* KFSegmentObject.swift */,
+				3A6EE3A8FAFA4EE999A064A0E2963C17 /* KFSetting.swift */,
+				69510B44A85EC122554A4485F5B44B72 /* Support Files */,
+			);
+			name = KFSegmentedView;
+			path = KFSegmentedView;
+			sourceTree = "<group>";
+		};
+		199DB06DF4A9B41AC10DE43A5063968B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF5BDD5BB9BC186D95DA017EB4D072B3 /* KFSegmentedView.framework */,
+				31426CC1723370142928FB4AA5E9684E /* Pods_segment_test.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3672CB3A8AD4E08808C5058F258EBB6C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A1DB8386BAE28EBD9F1B0321E49C019 /* Pods-segment-test */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		69510B44A85EC122554A4485F5B44B72 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D285032CE5A6D32E87BE387A0FE1E881 /* KFSegmentedView.modulemap */,
+				69761415B12924EB34A3293A6CF3DC7C /* KFSegmentedView.xcconfig */,
+				C8E37F997603AF670CDC707AC86BE6EA /* KFSegmentedView-dummy.m */,
+				05C4E08748F577F80005E965D9005716 /* KFSegmentedView-Info.plist */,
+				C15CE54B21E8B3888F9F4D7C458CA82D /* KFSegmentedView-prefix.pch */,
+				C1A49B86607E8912460AE1426A1CEC12 /* KFSegmentedView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KFSegmentedView";
+			sourceTree = "<group>";
+		};
+		8A1DB8386BAE28EBD9F1B0321E49C019 /* Pods-segment-test */ = {
+			isa = PBXGroup;
+			children = (
+				D5ACEBA6414BC0B4FC50EF48830525F9 /* Pods-segment-test.modulemap */,
+				522D31C333E09BA8D1DC2EE5FE33840C /* Pods-segment-test-acknowledgements.markdown */,
+				4A14F0881D4D98A8480F4C771CCEC701 /* Pods-segment-test-acknowledgements.plist */,
+				E88914F8E6E4D7E95D491CAA944ADBFB /* Pods-segment-test-dummy.m */,
+				66AB856212A490EB08F6DEF46FAC784D /* Pods-segment-test-frameworks.sh */,
+				83139BB3D26EE080884665B75FE75C8E /* Pods-segment-test-Info.plist */,
+				9F10CD152C03A88FFF3E8D2D94D1461F /* Pods-segment-test-umbrella.h */,
+				9769956FD0771284F98E8914EAC2EE36 /* Pods-segment-test.debug.xcconfig */,
+				CBF1544BBFC17BA48F63BC7223414870 /* Pods-segment-test.release.xcconfig */,
+			);
+			name = "Pods-segment-test";
+			path = "Target Support Files/Pods-segment-test";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EEA11CA3F180DF7575A61F87B06E59EE /* Pods */,
+				199DB06DF4A9B41AC10DE43A5063968B /* Products */,
+				3672CB3A8AD4E08808C5058F258EBB6C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEA11CA3F180DF7575A61F87B06E59EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A91EC9F363979FD91FE19075F939007 /* KFSegmentedView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07CB72471ADCF0AE13CC3908D53CE629 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE6716A44A736EB580EFED85DCA6471D /* KFSegmentedView-umbrella.h in Headers */,
+				542B1F2FD07136BBECA8773B4331FBC2 /* KFSegmentedView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFD55EB4C6FDB4127D99CEACA29AEB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18C3D90CF7A7D5B2BD57A24E04E3EF7 /* Pods-segment-test-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DD6006E0DAE6C893FA0A0FDB9A251D1C /* Pods-segment-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39561D1FAE9F71307BB1AB1B53F5D84D /* Build configuration list for PBXNativeTarget "Pods-segment-test" */;
+			buildPhases = (
+				8EFD55EB4C6FDB4127D99CEACA29AEB9 /* Headers */,
+				5A9DA79120599ACCD4F4CF59C00DA553 /* Sources */,
+				7EBB2F289143024979FEE89C2A4F8D9D /* Frameworks */,
+				1A31F7E646FF68C21C2993DDD28CD98D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CB37EFD75323174970E06D9E5A2EB71 /* PBXTargetDependency */,
+			);
+			name = "Pods-segment-test";
+			productName = "Pods-segment-test";
+			productReference = 31426CC1723370142928FB4AA5E9684E /* Pods_segment_test.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F96D6A788AEE57DB40BB2CF46D1FC898 /* KFSegmentedView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75502899D901142C938ABD0AEE99CD76 /* Build configuration list for PBXNativeTarget "KFSegmentedView" */;
+			buildPhases = (
+				07CB72471ADCF0AE13CC3908D53CE629 /* Headers */,
+				566C2F8C0B5B0308B10B9099AD6DADBF /* Sources */,
+				92243C60869A28F780D3868FDE440329 /* Frameworks */,
+				5FFEC2612320C59D5F69314370821848 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KFSegmentedView;
+			productName = KFSegmentedView;
+			productReference = AF5BDD5BB9BC186D95DA017EB4D072B3 /* KFSegmentedView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 199DB06DF4A9B41AC10DE43A5063968B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F96D6A788AEE57DB40BB2CF46D1FC898 /* KFSegmentedView */,
+				DD6006E0DAE6C893FA0A0FDB9A251D1C /* Pods-segment-test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A31F7E646FF68C21C2993DDD28CD98D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FFEC2612320C59D5F69314370821848 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		566C2F8C0B5B0308B10B9099AD6DADBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA7F1945BFADD9360DDBB87C4F1B06C /* KFButton.swift in Sources */,
+				20746655D457F57DA9866B98C0933305 /* KFSegmentedController.swift in Sources */,
+				F9B41AE5299FFBC75A52565B149E2031 /* KFSegmentedController.xib in Sources */,
+				A10FB282F817A324F79AC498A449CC4B /* KFSegmentedStackView.swift in Sources */,
+				4E43A9FB47245F54C7969311B0883DDD /* KFSegmentedView-dummy.m in Sources */,
+				00A7EAF9F656A6E169CDF74B23E45267 /* KFSegmentObject.swift in Sources */,
+				B5DBDC041E37A7F88D2BA219C9E3E323 /* KFSetting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9DA79120599ACCD4F4CF59C00DA553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BAAA2BB6F7FC3E260E91A2766BDD53A /* Pods-segment-test-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CB37EFD75323174970E06D9E5A2EB71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KFSegmentedView;
+			target = F96D6A788AEE57DB40BB2CF46D1FC898 /* KFSegmentedView */;
+			targetProxy = 72912CA5B85A07E84D6F538059093A91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3156268B1128E778FE5F53480E10F04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF1544BBFC17BA48F63BC7223414870 /* Pods-segment-test.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-segment-test/Pods-segment-test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-segment-test/Pods-segment-test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69A3EE3357B03A3DC4CDB53A245B1875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69761415B12924EB34A3293A6CF3DC7C /* KFSegmentedView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KFSegmentedView/KFSegmentedView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KFSegmentedView/KFSegmentedView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KFSegmentedView/KFSegmentedView.modulemap";
+				PRODUCT_MODULE_NAME = KFSegmentedView;
+				PRODUCT_NAME = KFSegmentedView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B034E9FCAD23658D028352C5471792B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9769956FD0771284F98E8914EAC2EE36 /* Pods-segment-test.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-segment-test/Pods-segment-test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-segment-test/Pods-segment-test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F22C4A2BB96E5259C720CA256033FDE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69761415B12924EB34A3293A6CF3DC7C /* KFSegmentedView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KFSegmentedView/KFSegmentedView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KFSegmentedView/KFSegmentedView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KFSegmentedView/KFSegmentedView.modulemap";
+				PRODUCT_MODULE_NAME = KFSegmentedView;
+				PRODUCT_NAME = KFSegmentedView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39561D1FAE9F71307BB1AB1B53F5D84D /* Build configuration list for PBXNativeTarget "Pods-segment-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B034E9FCAD23658D028352C5471792B7 /* Debug */,
+				3156268B1128E778FE5F53480E10F04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75502899D901142C938ABD0AEE99CD76 /* Build configuration list for PBXNativeTarget "KFSegmentedView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A3EE3357B03A3DC4CDB53A245B1875 /* Debug */,
+				F22C4A2BB96E5259C720CA256033FDE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
