@@ -17,7 +17,7 @@ protocol KFSegmentedControllerDelegate: class {
     func segmentedSelectedItem(at index:Int, obj:KFSegmentObject)
 }
 
-internal class KFSegmentedController: UIViewController {
+public class KFSegmentedController: UIViewController {
     
     weak var delegate: KFSegmentedControllerDelegate?
     
@@ -38,7 +38,7 @@ internal class KFSegmentedController: UIViewController {
         }
     }
     
-    public var semantic: SegmentSemantic = .ltr {
+    var semantic: SegmentSemantic = .ltr {
         didSet {
             switch semantic {
             case .ltr:
@@ -69,7 +69,7 @@ internal class KFSegmentedController: UIViewController {
         print("KFSegmentedController deinit")
     }
     
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         self.initUI()
         self.configureStackView()

@@ -19,7 +19,7 @@ public struct KFSetting {
     var borderWidth:CGFloat?
     var cornerRadius:CGFloat?
     
-    init(font:UIFont? = nil,
+    public init(font:UIFont? = nil,
         selectedTextColor:UIColor,
         unselectedTextColor:UIColor,
         selectedBackgroundColor: UIColor,

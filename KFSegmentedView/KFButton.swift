@@ -17,9 +17,9 @@ protocol KFSegmentedButtonLogic {
     func setColorForUnselectedButton()
 }
 
-internal class KFButton: UIButton, KFSegmentedButtonLogic {
+public class KFButton: UIButton, KFSegmentedButtonLogic {
     
-    public var delegate: KFSegmentedButtonDelegate!
+    var delegate: KFSegmentedButtonDelegate!
     private var buttonSetting: KFSetting!
     public var object:KFSegmentObject! {
         didSet {
@@ -64,7 +64,7 @@ internal class KFButton: UIButton, KFSegmentedButtonLogic {
         get { return buttonSetting.cornerRadius ?? 0 }
     }
     
-    init(setting:KFSetting) {
+    public init(setting:KFSetting) {
         super.init(frame: .zero)
         self.buttonSetting = setting
     }

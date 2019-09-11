@@ -14,7 +14,7 @@ public struct KFSegmentObject {
     var title:String
     var buttonSetting:KFSetting
     
-    init(model:AnyObject? = nil, index:Int, title:String, settings:KFSetting) {
+    public init(model:AnyObject? = nil, index:Int, title:String, settings:KFSetting) {
         self.model = model
         self.title = title
         self.buttonSetting = settings
