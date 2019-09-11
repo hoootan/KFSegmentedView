@@ -27,3 +27,13 @@ import KFSegmentedView
 ````swift
 let segmentedController = KFSegmentedController(delegate: self, items: objs)
 ````
+
+3. you need to add and conform to `KFSegmentedControllerDelegate` in main controller 
+
+```swift
+extension ViewController : KFSegmentedControllerDelegate {
+    func segmentedSelectedItem(at index: Int, obj: KFSegmentObject) {
+        
+    }
+}
+````
