@@ -8,9 +8,13 @@
 
 import UIKit
 
+enum SegmentSemantic {
+    case rtl
+    case ltr
+}
+
 protocol KFSegmentedControllerDelegate: class {
-    func segmentedSelectedItem(at index:Int, obj:KFSegmentObject<AnyObject>)
-    func segmentedUnSelectedItem(at index:Int, obj:KFSegmentObject<AnyObject>)
+    func segmentedSelectedItem(at index:Int, obj:KFSegmentObject)
 }
 
 class KFSegmentedController: UIViewController {
@@ -20,10 +24,29 @@ class KFSegmentedController: UIViewController {
     @IBOutlet weak private var backgroundView: UIView!
     @IBOutlet weak private var segmentStackView: KFSegmentedStackView!
     
-    public var objects:[KFSegmentObject<AnyObject>]!
+    private var objects:[KFSegmentObject]!
+    
     public var backgroundColor: UIColor {
         get { return .white }
-        set { backgroundView.backgroundColor = newValue }
+        set { self.backgroundView.backgroundColor = newValue }
+    }
+    
+    public var segmentSelectedIndex: Int = 0 {
+        didSet {
+            let selectedButton = segmentStackView.arrangedSubviews[segmentSelectedIndex] as! KFButton
+            selectedButton.didSelectAction()
+        }
+    }
+    
+    public var semantic: SegmentSemantic = .ltr {
+        didSet {
+            switch semantic {
+            case .ltr:
+                segmentStackView.semanticContentAttribute = .forceLeftToRight
+            case .rtl:
+                segmentStackView.semanticContentAttribute = .forceRightToLeft
+            }
+        }
     }
     
     public var cornerRadius: CGFloat {
@@ -31,10 +54,11 @@ class KFSegmentedController: UIViewController {
         set { self.backgroundView.layer.cornerRadius = newValue }
     }
     
-    init(delegate:KFSegmentedControllerDelegate) {
+    init(delegate:KFSegmentedControllerDelegate, items:[KFSegmentObject]) {
         print("KFSegmentedController init")
         super.init(nibName: "KFSegmentedController", bundle: nil)
         self.delegate = delegate
+        self.objects = items
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -69,15 +93,20 @@ class KFSegmentedController: UIViewController {
 }
 
 extension KFSegmentedController: KFSegmentedButtonDelegate {
-    func didSelect(at index: Int, with obj: KFSegmentObject<AnyObject>) {
+    func didSelect(at index: Int, with obj: KFSegmentObject) {
         let selectedButton = segmentStackView.arrangedSubviews[index] as! KFButton
         selectedButton.setColorForSelectedButton()
+        let unselectButtons = (segmentStackView.arrangedSubviews as! [KFButton]).filter({ $0.object.index != index })
+        unselectButtons.forEach { (btn) in btn.setColorForUnselectedButton()}
         delegate?.segmentedSelectedItem(at: index, obj: obj)
     }
-    
-    func didUnselect(at index: Int, with obj: KFSegmentObject<AnyObject>) {
-        let selectedButton = segmentStackView.arrangedSubviews[index] as! KFButton
-        selectedButton.setColorForUnselectedButton()
-        delegate?.segmentedUnSelectedItem(at: index, obj: obj)
+}
+
+extension UIViewController {
+    func add(child:UIViewController,subview:UIView) {
+        addChild(child)
+        child.view.frame = subview.bounds
+        subview.addSubview(child.view)
+        child.didMove(toParent: self)
     }
 }

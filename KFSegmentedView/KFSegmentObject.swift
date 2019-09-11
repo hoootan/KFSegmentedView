@@ -8,9 +8,17 @@
 
 import Foundation
 
-struct KFSegmentObject<T:AnyObject> {
-    var model:T
+struct KFSegmentObject {
+    var model:AnyObject?
     var index:Int
     var title:String
     var buttonSetting:KFSetting
+    
+    init(model:AnyObject? = nil, index:Int, title:String, settings:KFSetting) {
+        self.model = model
+        self.title = title
+        self.buttonSetting = settings
+        self.index = index
+    }
+    
 }

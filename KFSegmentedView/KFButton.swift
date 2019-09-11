@@ -9,8 +9,7 @@
 import UIKit
 
 protocol KFSegmentedButtonDelegate {
-    func didSelect(at index:Int,with obj:KFSegmentObject<AnyObject>)
-    func didUnselect(at index:Int,with obj:KFSegmentObject<AnyObject>)
+    func didSelect(at index:Int,with obj:KFSegmentObject)
 }
 
 protocol KFSegmentedButtonLogic {
@@ -22,7 +21,7 @@ class KFButton: UIButton, KFSegmentedButtonLogic {
     
     public var delegate: KFSegmentedButtonDelegate!
     private var buttonSetting: KFSetting!
-    public var object:KFSegmentObject<AnyObject>! {
+    public var object:KFSegmentObject! {
         didSet {
             setTitle(object.title, for: .normal)
             addTarget(self, action: #selector(didSelectAction), for: .touchUpInside)
@@ -30,33 +29,39 @@ class KFButton: UIButton, KFSegmentedButtonLogic {
     }
     
     var labelFont: UIFont {
-        get { return buttonSetting.labelFont }
-        set { self.titleLabel?.font = newValue }
+        get { return buttonSetting.labelFont ?? UIFont.systemFont(ofSize: 14) }
     }
     
-    var textColor: UIColor {
-        get { return buttonSetting.textColor }
-        set { self.tintColor = newValue }
+    var selectedTextColor: UIColor {
+        get { return buttonSetting.selectedTextColor }
     }
     
-    var unselectedColor: UIColor {
-        get { return buttonSetting.unselectedColor }
-        set { setTitleColor(newValue, for: .normal) }
+    var unselectedTextColor: UIColor {
+        get { return buttonSetting.unselectedTextColor }
     }
 
-    var selectedColor: UIColor {
-        get { return buttonSetting.selectedColor }
-        set { setTitleColor(newValue, for: .normal) }
+    var selectedBackgroundColor: UIColor {
+        get { return buttonSetting.selectedBackgroundColor }
+    }
+
+    var unselectedBackgroundColor: UIColor {
+        get { return buttonSetting.unselectedBackgroundColor }
     }
 
     var selectedBorderColor: UIColor {
         get { return buttonSetting.selectedBorderColor }
-        set { layer.borderColor = newValue.cgColor }
     }
 
     var unselectedBorderColor: UIColor {
         get { return buttonSetting.unselectedBorderColor }
-        set { layer.borderColor = newValue.cgColor }
+    }
+    
+    var borderWidth: CGFloat {
+        get { return buttonSetting.borderWidth ?? 0 }
+    }
+    
+    var cornerRadius: CGFloat {
+        get { return buttonSetting.cornerRadius ?? 0 }
     }
     
     init(setting:KFSetting) {
@@ -73,17 +78,19 @@ class KFButton: UIButton, KFSegmentedButtonLogic {
     }
     
     func setColorForSelectedButton() {
-        backgroundColor = .white
+        setTitleColor(selectedTextColor, for: .normal)
+        backgroundColor = selectedBackgroundColor
         layer.borderColor = selectedBorderColor.cgColor
-        layer.borderWidth = 0.5
-        layer.cornerRadius = 14.0
+        layer.borderWidth = borderWidth
+        layer.cornerRadius = cornerRadius
         layer.masksToBounds = true
     }
     
     func setColorForUnselectedButton() {
-        backgroundColor = .clear
+        setTitleColor(unselectedTextColor, for: .normal)
+        backgroundColor = unselectedBackgroundColor
         layer.borderColor = unselectedBorderColor.cgColor
-        layer.borderWidth = 0
+        layer.borderWidth = borderWidth
     }
-    
+
 }
