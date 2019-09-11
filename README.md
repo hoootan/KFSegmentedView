@@ -1,5 +1,7 @@
 # KFSegmentedView
 
+<a href="https://imggmi.com" target="_blank"><img src="https://cdn1.imggmi.com/uploads/2019/9/11/b5bc5f16fb740393f4610e699d416209-full.png" border="0"/></a>
+
 ## Requirements
 
 * iOS 10.0+
