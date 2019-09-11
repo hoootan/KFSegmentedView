@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "KFSegmentedView"
-  s.version      = "1.1.0"
+  s.version      = "1.1.2"
   s.summary      = "Customized Segmented View"
   s.swift_version = "4.2"
   
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "KFSegmentedView", "KFSegmentedView/**/*.{h,m,swift}"
+  s.source_files  = "KFSegmentedView", "KFSegmentedView/**/*.{h,m,swift,xib}"
 
   # s.public_header_files = "Classes/**/*.h"
 

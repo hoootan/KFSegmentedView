@@ -56,7 +56,7 @@ public class KFSegmentedController: UIViewController {
     
     public init(delegate:KFSegmentedControllerDelegate, items:[KFSegmentObject]) {
         print("KFSegmentedController init")
-        super.init(nibName: "KFSegmentedController", bundle: nil)
+        super.init(nibName: "KFSegmentedController", bundle: Bundle(for: KFSegmentedController.classForCoder()))
         self.delegate = delegate
         self.objects = items
     }
