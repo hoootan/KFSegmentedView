@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -32,20 +30,18 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="865-Gb-pDa" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="8AE-3p-uLz"/>
-                <constraint firstItem="SGE-V5-Ht8" firstAttribute="centerY" secondItem="865-Gb-pDa" secondAttribute="centerY" id="EDS-Bn-kYQ"/>
-                <constraint firstItem="SGE-V5-Ht8" firstAttribute="bottom" secondItem="865-Gb-pDa" secondAttribute="bottom" id="GrV-wU-ZY7"/>
-                <constraint firstItem="SGE-V5-Ht8" firstAttribute="leading" secondItem="865-Gb-pDa" secondAttribute="leading" id="HIf-Vl-ch1"/>
-                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="865-Gb-pDa" secondAttribute="trailing" id="Mwj-Jd-Eoq"/>
-                <constraint firstItem="865-Gb-pDa" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Zfh-0u-bbu"/>
-                <constraint firstItem="SGE-V5-Ht8" firstAttribute="top" secondItem="865-Gb-pDa" secondAttribute="top" id="bi1-VO-sue"/>
-                <constraint firstAttribute="bottom" secondItem="865-Gb-pDa" secondAttribute="bottom" id="d5i-A0-Wou"/>
-                <constraint firstItem="865-Gb-pDa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="fNM-fO-3Ty"/>
-                <constraint firstAttribute="trailing" secondItem="865-Gb-pDa" secondAttribute="trailing" id="i2n-oH-c78"/>
-                <constraint firstItem="SGE-V5-Ht8" firstAttribute="trailing" secondItem="865-Gb-pDa" secondAttribute="trailing" id="vrW-h5-pog"/>
-                <constraint firstItem="SGE-V5-Ht8" firstAttribute="centerX" secondItem="865-Gb-pDa" secondAttribute="centerX" id="xe7-nw-kmJ"/>
+                <constraint firstItem="865-Gb-pDa" firstAttribute="leading" secondItem="SGE-V5-Ht8" secondAttribute="leading" id="2k4-CX-l93"/>
+                <constraint firstItem="865-Gb-pDa" firstAttribute="trailing" secondItem="SGE-V5-Ht8" secondAttribute="trailing" id="4iq-yM-Xsw"/>
+                <constraint firstItem="865-Gb-pDa" firstAttribute="bottom" secondItem="SGE-V5-Ht8" secondAttribute="bottom" id="8ll-dn-gqp"/>
+                <constraint firstItem="865-Gb-pDa" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="HBx-tE-Ny9"/>
+                <constraint firstItem="865-Gb-pDa" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="QJR-yJ-0Rc"/>
+                <constraint firstItem="865-Gb-pDa" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="U9X-YK-KRw"/>
+                <constraint firstAttribute="bottom" secondItem="865-Gb-pDa" secondAttribute="bottom" id="fBh-Vh-oFU"/>
+                <constraint firstItem="865-Gb-pDa" firstAttribute="top" secondItem="SGE-V5-Ht8" secondAttribute="top" id="lse-uO-2Mj"/>
+                <constraint firstItem="865-Gb-pDa" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="tDn-yx-LQ6"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="141" y="135"/>
         </view>
     </objects>
 </document>

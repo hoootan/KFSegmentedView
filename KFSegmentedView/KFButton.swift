@@ -79,18 +79,22 @@ public class KFButton: UIButton, KFSegmentedButtonLogic {
     
     func setColorForSelectedButton() {
         setTitleColor(selectedTextColor, for: .normal)
+        titleLabel?.font = labelFont
         backgroundColor = selectedBackgroundColor
         layer.borderColor = selectedBorderColor.cgColor
         layer.borderWidth = borderWidth
         layer.cornerRadius = cornerRadius
         layer.masksToBounds = true
+        contentEdgeInsets = UIEdgeInsets(top: 0, left: 20, bottom: 0, right: 20)
     }
     
     func setColorForUnselectedButton() {
         setTitleColor(unselectedTextColor, for: .normal)
         backgroundColor = unselectedBackgroundColor
+        titleLabel?.font = labelFont
         layer.borderColor = unselectedBorderColor.cgColor
         layer.borderWidth = borderWidth
+        contentEdgeInsets = UIEdgeInsets(top: 0, left: 20, bottom: 0, right: 20)
     }
 
 }
