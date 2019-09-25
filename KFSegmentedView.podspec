@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "KFSegmentedView"
-  s.version      = "1.2.0"
+  s.version      = "1.2.1"
   s.summary      = "Customized Segmented View"
   s.swift_version = "4.2"
   
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/hoootan/KFSegmentedView.git", :tag => "1.2.0" }
+  s.source       = { :git => "https://github.com/hoootan/KFSegmentedView.git", :tag => "1.2.1" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

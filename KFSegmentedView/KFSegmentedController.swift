@@ -72,6 +72,7 @@ public class KFSegmentedController: UIViewController {
     override public func viewDidLoad() {
         super.viewDidLoad()
         self.initUI()
+        self.removeStackViewItems()
         self.configureStackView()
     }
     
