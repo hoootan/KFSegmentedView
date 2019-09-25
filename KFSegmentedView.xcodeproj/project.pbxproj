@@ -10,10 +10,10 @@
 		6D22D2F52323C32A003DFFFF /* KFSegmentedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D22D2F32323C32A003DFFFF /* KFSegmentedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D3A34922323C7F50009C754 /* KFSegmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3A34912323C7F50009C754 /* KFSegmentObject.swift */; };
 		6D3A34952323C9640009C754 /* KFSegmentedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3A34932323C9640009C754 /* KFSegmentedController.swift */; };
-		6D3A34962323C9640009C754 /* KFSegmentedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D3A34942323C9640009C754 /* KFSegmentedController.xib */; };
 		6D3A34982323CC6D0009C754 /* KFSegmentedStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3A34972323CC6D0009C754 /* KFSegmentedStackView.swift */; };
 		6D7552CB2324E1D800A72D02 /* KFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7552CA2324E1D800A72D02 /* KFButton.swift */; };
 		6D7552CD2324F62300A72D02 /* KFSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7552CC2324F62300A72D02 /* KFSetting.swift */; };
+		6DC8378B233BA33B001009BA /* KFSegmentedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DC8378A233BA33B001009BA /* KFSegmentedController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +22,10 @@
 		6D22D2F42323C32A003DFFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D3A34912323C7F50009C754 /* KFSegmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFSegmentObject.swift; sourceTree = "<group>"; };
 		6D3A34932323C9640009C754 /* KFSegmentedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFSegmentedController.swift; sourceTree = "<group>"; };
-		6D3A34942323C9640009C754 /* KFSegmentedController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KFSegmentedController.xib; sourceTree = "<group>"; };
 		6D3A34972323CC6D0009C754 /* KFSegmentedStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFSegmentedStackView.swift; sourceTree = "<group>"; };
 		6D7552CA2324E1D800A72D02 /* KFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFButton.swift; sourceTree = "<group>"; };
 		6D7552CC2324F62300A72D02 /* KFSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFSetting.swift; sourceTree = "<group>"; };
+		6DC8378A233BA33B001009BA /* KFSegmentedController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KFSegmentedController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 		6D3A34992323CCBB0009C754 /* xib */ = {
 			isa = PBXGroup;
 			children = (
-				6D3A34942323C9640009C754 /* KFSegmentedController.xib */,
+				6DC8378A233BA33B001009BA /* KFSegmentedController.xib */,
 			);
 			path = xib;
 			sourceTree = "<group>";
@@ -147,7 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D3A34962323C9640009C754 /* KFSegmentedController.xib in Resources */,
+				6DC8378B233BA33B001009BA /* KFSegmentedController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

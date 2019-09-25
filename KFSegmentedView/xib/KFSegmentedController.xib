@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -21,27 +23,32 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SGE-V5-Ht8">
-                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <rect key="frame" x="184" y="0.0" width="46" height="896"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </view>
                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="865-Gb-pDa" customClass="KFSegmentedStackView" customModule="KFSegmentedView" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <rect key="frame" x="184" y="0.0" width="46" height="896"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hX8-cr-OiJ">
+                            <rect key="frame" x="0.0" y="0.0" width="46" height="896"/>
+                            <state key="normal" title="Button"/>
+                        </button>
+                    </subviews>
                 </stackView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="865-Gb-pDa" firstAttribute="leading" secondItem="SGE-V5-Ht8" secondAttribute="leading" id="2k4-CX-l93"/>
-                <constraint firstItem="865-Gb-pDa" firstAttribute="trailing" secondItem="SGE-V5-Ht8" secondAttribute="trailing" id="4iq-yM-Xsw"/>
-                <constraint firstItem="865-Gb-pDa" firstAttribute="bottom" secondItem="SGE-V5-Ht8" secondAttribute="bottom" id="8ll-dn-gqp"/>
-                <constraint firstItem="865-Gb-pDa" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="HBx-tE-Ny9"/>
-                <constraint firstItem="865-Gb-pDa" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="QJR-yJ-0Rc"/>
-                <constraint firstItem="865-Gb-pDa" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="U9X-YK-KRw"/>
-                <constraint firstAttribute="bottom" secondItem="865-Gb-pDa" secondAttribute="bottom" id="fBh-Vh-oFU"/>
-                <constraint firstItem="865-Gb-pDa" firstAttribute="top" secondItem="SGE-V5-Ht8" secondAttribute="top" id="lse-uO-2Mj"/>
-                <constraint firstItem="865-Gb-pDa" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="tDn-yx-LQ6"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="865-Gb-pDa" secondAttribute="trailing" id="EdX-5c-8lP"/>
+                <constraint firstItem="SGE-V5-Ht8" firstAttribute="leading" secondItem="865-Gb-pDa" secondAttribute="leading" id="FAD-qS-UTw"/>
+                <constraint firstItem="SGE-V5-Ht8" firstAttribute="top" secondItem="865-Gb-pDa" secondAttribute="top" id="Gvi-Pb-sUP"/>
+                <constraint firstItem="865-Gb-pDa" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Paj-pY-sOp"/>
+                <constraint firstAttribute="bottom" secondItem="865-Gb-pDa" secondAttribute="bottom" id="WbA-QA-fPL"/>
+                <constraint firstItem="SGE-V5-Ht8" firstAttribute="bottom" secondItem="865-Gb-pDa" secondAttribute="bottom" id="dpO-pk-8Zw"/>
+                <constraint firstItem="865-Gb-pDa" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="mpV-jb-6dn"/>
+                <constraint firstItem="SGE-V5-Ht8" firstAttribute="trailing" secondItem="865-Gb-pDa" secondAttribute="trailing" id="py0-LV-QVD"/>
+                <constraint firstItem="865-Gb-pDa" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="vrW-Vt-YYD"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="141" y="135"/>
         </view>
     </objects>
 </document>

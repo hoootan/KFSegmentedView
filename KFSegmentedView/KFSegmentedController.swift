@@ -90,6 +90,12 @@ public class KFSegmentedController: UIViewController {
         }
     }
     
+    private func removeStackViewItems() {
+        segmentStackView.arrangedSubviews.forEach { (view) in
+            segmentStackView.removeArrangedSubview(view)
+            view.removeFromSuperview()
+        }
+    }
 }
 
 extension KFSegmentedController: KFSegmentedButtonDelegate {
